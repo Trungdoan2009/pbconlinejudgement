@@ -83,7 +83,7 @@ export default function Home() {
               </thead>
               <tbody>
                 {/* Always render ProblemTable */}
-                <ProblemTable loadingProblems={loadingProblems} setLoadingProblems={setLoadingProblems} />
+                <ProblemTable setLoadingProblems={setLoadingProblems} />
               </tbody>
             </table>
           </div>
